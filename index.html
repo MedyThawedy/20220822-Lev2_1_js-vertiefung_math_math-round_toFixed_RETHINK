@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Please type a number to round and the number of digits to display after the decimal point and open the console!
+    </h1>
+    <input type="number" placeholder="Please type a number!!!" id="idNr">
+    <input type="number" placeholder="Please type the number of digits to display after the decimal point!!!"
+        id="idGenauigkeit">
+    <button
+        onclick="roundTo(document.getElementById('idNr').value, document.getElementById('idGenauigkeit').value)">Send</button>
+    <script src="./assets/js/main.js"></script>
+    <br><br>
+    <p id="idOutput"></p>
+</body>
+
+</html>
